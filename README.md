@@ -5,10 +5,11 @@ Just a sample repo to think through some problems
 - [how to mock core functionality](https://stackoverflow.com/questions/16443801/mockito-for-objects-in-scala)
 - [difference between spy and mock](https://stackoverflow.com/questions/28295625/mockito-spy-vs-mock#:~:text=The%20difference%20is%20that%20in,call%20the%20real%20method%20behavior)
 - [how to use traits and mockito](https://blog.knoldus.com/mocking-the-right-way/)
-
+- [Possible pytest implementation where you keep the fromURL the same](https://pypi.org/project/pytest-httpserver/)
+  - Need to find a similar solution for scala.
 
 # Problem space 
-At a low level wse use fromURL which is not testable in a unit test and will require a live https server. We likely want to make the fromURL an arg.
+At a low level we use fromURL which is not testable in a unit test and will require a live https server. We likely want to make the fromURL an arg.
 ```
 /* load something from a url */ 
  def loadFromUrl(url: String) : String = {
