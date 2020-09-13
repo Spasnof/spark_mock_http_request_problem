@@ -67,6 +67,7 @@ def test_add_one()
 	val output = add_one(mock_db_api_call)
 	assert(expected, output)
 
-// problem area I don't want to pass the context of what this db_api_call is just for the sake of testing. Ideally the call_database() is the only thing we replace at runtime just for the tests.
+// problem area I don't want to pass the context of what this db_api_call is just for the sake of testing. 
+Ideally the call_database() is the only thing we replace at runtime just for the tests.
 
 ```
