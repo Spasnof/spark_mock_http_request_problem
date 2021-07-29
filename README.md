@@ -1,5 +1,5 @@
 # mocking urls in spark scala
-Just a sample repo to think through some problems 
+Just a sample repo to think through some problems.
 
 # helpful links:
 - [how to mock core functionality](https://stackoverflow.com/questions/16443801/mockito-for-objects-in-scala)
